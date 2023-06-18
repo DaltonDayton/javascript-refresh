@@ -14,3 +14,17 @@ console.log("abc as content: " + content);
 console.log("utils02.default: " + utils02.default);
 console.log("utils02.apiKey: " + utils02.apiKey);
 console.log("utils02.zxy: " + utils02.zxy);
+
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log("Hi");
+  }
+}
+
+const user1 = new User("Max", 30);
+console.log(user1);
